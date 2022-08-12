@@ -14,4 +14,8 @@
   --black-01: #000;
 
   --red-01: #f44336;
+
+  /* DIMENSION */
+
+  --sidebar-width: 250px;
 }

@@ -66,7 +66,11 @@
           <div class="logo-box">
             <p class="logo">logo</p>
           </div>
-          <ion-icon name="menu" class="navbar-icon"></ion-icon>
+          <div class="m-navbar-icon-box center">
+            <a href="" class="m-navbar-link">
+              <ion-icon name="menu" class="navbar-icon"></ion-icon>
+            </a>
+          </div>
         </div>
 
         <!-- MAIN -->
@@ -75,7 +79,7 @@
           <section class="header">
             <div class="header-box">
               <h3 class="header-title">Jeans</h3>
-              <div class="header-link-box">
+              <div class="header-link-box flex-row .flex-row-spacing flex-row-center">
                 <a href="" class="header-link">
                   <ion-icon name="cart"></ion-icon>
                 </a>
@@ -254,10 +258,10 @@
           <!-- CONTACT -->
           <section class="more-info">
             <div class="container">
-              <div class="more-info-box">
-                <div class="more-info-contact">
-                  <h4 class="more-info-tilte">Contact</h4>
-                  <p class="more-info-text">Questions? Go ahead.</p>
+              <div class="more-info-box flex-row">
+                <div class="more-info-item contact">
+                  <h4 class="more-info-tilte center">Contact</h4>
+                  <p class="more-info-text center">Questions? Go ahead.</p>
                   <form action="" class="more-info-form">
                     <input type="text" class="form-input" placeholder="Name" />
                     <input
@@ -279,7 +283,9 @@
                   </form>
                 </div>
 
-                <ul class="more-info-about">
+                <ul class="more-info-item about center">
+                  <h4 class="more-info-tilte">About</h4>
+
                   <li class="about-item">
                     <a href="" class="about-link">About us</a>
                   </li>
@@ -308,13 +314,51 @@
                     <a href="" class="about-link">Help</a>
                   </li>
                 </ul>
-                <div class="more-info-store"></div>
+                <div class="more-info-item store">
+                  <div class="store-location">
+                    <h4 class="more-info-tilte">Store</h4>
+                    <p class="store-location-item flex-row flex-row-center">
+                      <ion-icon name="location-sharp"></ion-icon>
+                      Company Name
+                    </p>
+                    <p class="store-location-item flex-row flex-row-center">
+                      <ion-icon name="call-sharp"></ion-icon>
+                      0044123123
+                    </p>
+                    <p class="store-location-item flex-row flex-row-center">
+                      <ion-icon name="mail-sharp"></ion-icon>
+                      ex@mail.com
+                    </p>
+                  </div>
+                  <div class="payment">
+                    <h4 class="more-info-tilte flex-row flex-row-center">
+                      We accept
+                    </h4>
+                    <p class="payment-item flex-row flex-row-center">
+                      <ion-icon name="card-sharp"></ion-icon>
+                      Amex
+                    </p>
+                    <p class="payment-item flex-row flex-row-center">
+                      <ion-icon name="card-sharp"></ion-icon>Credit Card
+                    </p>
+                  </div>
+                  <div class="social-network">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-snapchat"></ion-icon>
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
         </main>
 
-        <footer></footer>
+        <footer class="center">
+          <p>Powered by <a href="" class="footer-link">w3.css</a></p>
+        </footer>
       </div>
     </div>
     <script

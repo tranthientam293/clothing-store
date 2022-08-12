@@ -21,18 +21,12 @@ li {
   list-style-type: none;
 }
 
-/* ul,
-li {
-  width: 100%;
-} */
-
 a {
   display: block;
   text-decoration: none;
   font: inherit;
   color: inherit;
 
-  width: 100%;
 }
 
 img {
@@ -42,7 +36,7 @@ img {
 
 button {
   display: block;
-  
+
   font: inherit;
   color: var(--white-01);
   background-color: var(--black-01);
@@ -83,7 +77,7 @@ input {
 /* ************** */
 
 .heading-primary {
-  font-size: 64px;
+  font-size: clamp(36px, calc(8px + 4.6vw), 64px);
   font-weight: 400;
   line-height: calc(96 / 64);
 
@@ -110,6 +104,7 @@ input {
   line-height: calc(54 / 36);
 
   color: var(--white-01);
+
   margin: 10px 0;
 }
 
@@ -120,8 +115,10 @@ input {
   position: absolute;
   top: 0;
   left: 0;
+
   color: var(--white-01);
   background-color: var(--black-01);
+  
   padding-inline: 8px;
 
   z-index: 1000;
@@ -137,8 +134,10 @@ input {
   position: absolute;
   top: 0;
   left: 0;
+
   color: var(--white-01);
   background-color: var(--black-01);
+
   padding-inline: 8px;
 
   z-index: 1000;

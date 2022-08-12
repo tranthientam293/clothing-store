@@ -9,6 +9,8 @@
 .btn:hover {
   background-color: var(--gray-01);
   color: var(--black-01);
+
+  transition: all 0.5s;
 }
 
 /* ************** */

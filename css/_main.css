@@ -12,7 +12,6 @@
 }
 
 .logo-box {
-  /* background-color: blueviolet; */
   padding: 16px;
 }
 
@@ -32,21 +31,24 @@
 
 .nav-item {
   font-family: var(--ff-2);
-  font-weight: 400;
-  font-size: 18px;
   font-weight: 700;
+  font-size: 18px;
 
   color: var(--gray-03);
 }
 
 .nav-item:hover > .subnav {
   display: block;
+
+  transition: all 1s;
 }
 
 .nav-item:hover > .nav-link,
 .subnav-item:hover .nav-link {
   color: var(--black-01);
   background-color: var(--gray-01);
+
+  transition: all 1s;
 }
 
 .nav-link {
@@ -77,11 +79,24 @@
   color: var(--white-01);
 }
 
+.m-navbar-icon-box {
+  height: 88px;
+}
+
+.m-navbar-icon-box:hover .navbar-icon {
+  color: var(--black-01);
+  background-color: var(--gray-01);
+}
+
+.m-navbar-icon-box:hover {
+  background-color: var(--gray-01);
+}
+
 .navbar-icon {
   font-size: 24px;
 
   color: var(--white-01);
-  padding: 16px;
+  margin: 50% 16px;
 }
 
 /* ************** */
@@ -91,19 +106,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   padding: 0 16px;
 }
 
 .header-title {
   font-weight: 400;
   font-size: 24px;
-  margin-block: 24px;
-}
 
-.header-link-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-block: 24px;
 }
 
 .header-link-box ion-icon {
@@ -125,6 +136,8 @@
   font-size: 18px;
   line-height: calc(27 / 18);
   text-transform: uppercase;
+
+  padding: 12px 24px;
   margin-top: 5px;
 }
 
@@ -139,6 +152,67 @@
 /* ************** */
 /* MORE-INFO */
 /* ************** */
+.more-info {
+  background-color: var(--gray-02);
+}
+
+.more-info-box {
+  padding: 64px 0;
+}
+
+.more-info-item {
+  flex-basis: 300px;
+}
+.more-info-tilte {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.more-info-text,
+.more-info-form .form-input,
+.payment-item,
+.store-location-item {
+  font-size: 12px;
+  line-height: calc(18 / 12);
+}
+
 .more-info-form .btn {
   width: 100%;
+}
+
+.about-link {
+  font-size: 12px;
+  line-height: 18px;
+
+  text-decoration: underline;
+  margin: 12px 0;
+}
+
+.payment-item,
+.store-location-item {
+  gap: 5px;
+
+  margin: 12px 0;
+}
+
+.social-network {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+/* ************** */
+/* FOOTER */
+/* ************** */
+footer {
+  color: var(--white-01);
+  background-color: var(--black-01);
+}
+footer p {
+  padding-block: 24px;
+}
+
+.footer-link {
+  display: inline;
+  text-decoration: underline;
 }

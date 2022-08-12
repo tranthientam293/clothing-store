@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 .wrapper {
-  margin-left: 250px;
+  margin-left: var(--sidebar-width);
 }
 
 .container {
@@ -13,9 +13,7 @@
 }
 
 .nav-container {
-  width: 250px;
-
-  background-color: brown;
+  width: var(--sidebar-width);
 }
 
 .grid {
@@ -30,10 +28,23 @@
   row-gap: var(--row-gap);
 }
 
-.grid--2-cols {
-  --grid-col: 2;
-}
-
 .grid--4-cols {
   --grid-col: 4;
+}
+
+.flex-row {
+  --justify-content-value: flex-start;
+  --align-item-value: flex-start;
+
+  display: flex;
+  align-items: var(--align-item-value);
+  justify-content: var(--justify-content-value);
+}
+
+.flex-row-spacing {
+  --justify-content-value: space-between;
+}
+
+.flex-row-center {
+  --align-item-value: center;
 }
