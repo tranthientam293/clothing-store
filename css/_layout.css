@@ -23,7 +23,7 @@
 
   display: grid;
   grid-template-columns: repeat(var(--grid-col), 1fr);
-  align-items: center;
+  align-items: start;
   column-gap: var(--column-gap);
   row-gap: var(--row-gap);
 }
