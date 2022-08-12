@@ -1,0 +1,17 @@
+:root {
+  /* FONT */
+  --ff-1: "Montserrat", sans-serif;
+  --ff-2: "Roboto", sans-serif;
+
+  /* COLOR */
+
+  --gray-01: #ccc;
+  --gray-02: #f1f1f1;
+  --gray-03: #757575;
+
+  --white-01: #fff;
+
+  --black-01: #000;
+
+  --red-01: #f44336;
+}

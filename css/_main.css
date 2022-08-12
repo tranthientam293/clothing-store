@@ -1,0 +1,144 @@
+/* ************** */
+/* NAVIGATION */
+/* ************** */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+
+  overflow-y: scroll;
+}
+
+.logo-box {
+  /* background-color: blueviolet; */
+  padding: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+  margin: 10px 0px;
+}
+
+.navbar-nav {
+  padding-block: 64px;
+}
+
+.nav-item {
+  font-family: var(--ff-2);
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 700;
+
+  color: var(--gray-03);
+}
+
+.nav-item:hover > .subnav {
+  display: block;
+}
+
+.nav-item:hover > .nav-link,
+.subnav-item:hover .nav-link {
+  color: var(--black-01);
+  background-color: var(--gray-01);
+}
+
+.nav-link {
+  padding: 8px 16px;
+}
+
+.subnav {
+  display: none;
+  padding: 12px 24px;
+}
+
+.subnav-item .nav-link {
+  font-size: 15px;
+  padding: 8px 16px;
+}
+
+.m-navbar {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: var(--black-01);
+}
+
+.m-navbar .logo {
+  color: var(--white-01);
+}
+
+.navbar-icon {
+  font-size: 24px;
+
+  color: var(--white-01);
+  padding: 16px;
+}
+
+/* ************** */
+/* HEADER */
+/* ************** */
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 24px;
+  margin-block: 24px;
+}
+
+.header-link-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link-box ion-icon {
+  font-size: 24px;
+  margin-left: 22px;
+}
+
+.header-img-box {
+  position: relative;
+}
+
+.heading-primary-box {
+  position: absolute;
+  top: 24px;
+  left: 32px;
+}
+
+.header-btn {
+  font-size: 18px;
+  line-height: calc(27 / 18);
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/* ************** */
+/* PRODUCTS */
+/* ************** */
+.products-heading {
+  margin-block: 15px;
+  color: var(--gray-03);
+}
+
+/* ************** */
+/* MORE-INFO */
+/* ************** */
+.more-info-form .btn {
+  width: 100%;
+}

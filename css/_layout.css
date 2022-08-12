@@ -1,0 +1,39 @@
+.cover {
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+.wrapper {
+  margin-left: 250px;
+}
+
+.container {
+  max-width: 950px;
+  padding: 0 16px;
+}
+
+.nav-container {
+  width: 250px;
+
+  background-color: brown;
+}
+
+.grid {
+  --grid-col: 1;
+  --column-gap: 32px;
+  --row-gap: 0px;
+
+  display: grid;
+  grid-template-columns: repeat(var(--grid-col), 1fr);
+  align-items: center;
+  column-gap: var(--column-gap);
+  row-gap: var(--row-gap);
+}
+
+.grid--2-cols {
+  --grid-col: 2;
+}
+
+.grid--4-cols {
+  --grid-col: 4;
+}

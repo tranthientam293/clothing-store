@@ -1,0 +1,74 @@
+/* ************** */
+/* BUTTON */
+/* ************** */
+
+.btn {
+  padding: 8px 16px;
+}
+
+.btn:hover {
+  background-color: var(--gray-01);
+  color: var(--black-01);
+}
+
+/* ************** */
+/* CARD */
+/* ************** */
+.card-img-box {
+  position: relative;
+}
+
+.card-img {
+  filter: grayscale(0.7);
+}
+
+.card-btn {
+  display: none;
+  align-items: center;
+  gap: 5px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 8px 16px;
+  white-space: nowrap;
+}
+
+.card-btn ion-icon {
+  font-size: 15px;
+}
+
+.card-img-box:hover .card-btn {
+  display: flex;
+}
+
+.card-body {
+  padding-block: 15px;
+}
+
+.card-price {
+  font-weight: 600;
+}
+
+/* ************** */
+/* FORM */
+/* ************** */
+.subscrible-form {
+  padding: 32px 16px;
+  background-color: var(--black-01);
+}
+
+.form-desc {
+  color: var(--white-01);
+  margin-block-end: 15px;
+}
+
+.form-input {
+  margin-block: 12px;
+}
+
+.form-btn {
+  background-color: var(--red-01);
+}

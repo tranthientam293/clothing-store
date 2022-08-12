@@ -1,0 +1,16 @@
+@media (max-width: 992px) {
+  .wrapper {
+    margin-left: 0;
+  }
+
+  /* ************** */
+  /* NAVIGATION */
+  /* ************** */
+  .nav-container {
+    display: none;
+  }
+
+  .m-navbar {
+    display: flex;
+  }
+}

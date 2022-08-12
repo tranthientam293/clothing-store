@@ -1,0 +1,145 @@
+/* ************** */
+/* RESET CSS */
+/* ************** */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-1);
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.5;
+
+  color: var(--black);
+}
+
+li {
+  list-style-type: none;
+}
+
+/* ul,
+li {
+  width: 100%;
+} */
+
+a {
+  display: block;
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  display: block;
+  
+  font: inherit;
+  color: var(--white-01);
+  background-color: var(--black-01);
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  display: inline-block;
+
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 18px;
+
+  border: 1px solid var(--gray-01);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: inherit;
+  color: inherit;
+}
+
+input {
+  display: block;
+  width: 100%;
+
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 8px;
+}
+
+/* ************** */
+/* REUSABLE ELEMENTS */
+/* ************** */
+
+.heading-primary {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: calc(96 / 64);
+
+  color: var(--white-01);
+
+  margin: 10px 0;
+}
+
+.subheading-primary {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: calc(54 / 36);
+
+  color: var(--white-01);
+
+  text-transform: uppercase;
+
+  margin: 10px 0;
+}
+
+.heading-secondary {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: calc(54 / 36);
+
+  color: var(--white-01);
+  margin: 10px 0;
+}
+
+.new .card-img-box::before {
+  content: "New";
+  display: inline-block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--white-01);
+  background-color: var(--black-01);
+  padding-inline: 8px;
+
+  z-index: 1000;
+}
+
+.sale .card-price {
+  color: var(--red-01);
+}
+.sale .card-img-box::before {
+  content: "Sale";
+  display: inline-block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--white-01);
+  background-color: var(--black-01);
+  padding-inline: 8px;
+
+  z-index: 1000;
+}
