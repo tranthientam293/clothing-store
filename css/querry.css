@@ -1,6 +1,13 @@
 @media (max-width: 992px) {
+  /* ************** */
+  /* LAYOUT */
+  /* ************** */
   .wrapper {
     margin-left: 0;
+  }
+  
+  .grid--4-cols {
+    --grid-col: 2;
   }
 
   /* ************** */
@@ -13,16 +20,12 @@
   .m-navbar {
     display: flex;
   }
-
-  /* ************** */
-  /* HEADER */
-  /* ************** */
-  .grid--4-cols {
-    --grid-col: 2;
-  }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
+  /* ************** */
+  /* HERO */
+  /* ************** */
   .subheading-primary {
     display: none;
   }
