@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 250px;
+  width: var(--sidebar-width);
 
   overflow-y: scroll;
 }
@@ -39,16 +39,14 @@
 
 .nav-item:hover > .subnav {
   display: block;
-
-  transition: all 1s;
 }
 
-.nav-item:hover > .nav-link,
+.nav-link:hover,
 .subnav-item:hover .nav-link {
   color: var(--black-01);
   background-color: var(--gray-01);
 
-  transition: all 1s;
+  transition: all 0.5s linear;
 }
 
 .nav-link {
@@ -58,6 +56,7 @@
 .subnav {
   display: none;
   padding: 12px 24px;
+  transition: all 1s linear;
 }
 
 .subnav-item .nav-link {
@@ -100,9 +99,9 @@
 }
 
 /* ************** */
-/* HEADER */
+/* HERO */
 /* ************** */
-.header-box {
+.hero-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,19 +109,19 @@
   padding: 0 16px;
 }
 
-.header-title {
+.hero-title {
   font-weight: 400;
   font-size: 24px;
 
   margin-block: 24px;
 }
 
-.header-link-box ion-icon {
+.hero-link-box ion-icon {
   font-size: 24px;
   margin-left: 22px;
 }
 
-.header-img-box {
+.hero-img-box {
   position: relative;
 }
 
@@ -132,7 +131,7 @@
   left: 32px;
 }
 
-.header-btn {
+.hero-btn {
   font-size: 18px;
   line-height: calc(27 / 18);
   text-transform: uppercase;

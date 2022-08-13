@@ -13,7 +13,7 @@
 }
 
 .nav-container {
-  width: var(--sidebar-width);
+  /* width: var(--sidebar-width); */
 }
 
 .grid {
