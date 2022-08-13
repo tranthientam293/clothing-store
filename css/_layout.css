@@ -1,5 +1,5 @@
 .cover {
-  max-width: 1200px;
+  max-width: var(--cover-width);
 
   margin: 0 auto;
 }
@@ -8,7 +8,7 @@
 }
 
 .container {
-  max-width: 950px;
+  max-width: calc(var(--cover-width) - var(--sidebar-width));
   padding: 0 16px;
 }
 
