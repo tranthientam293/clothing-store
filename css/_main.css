@@ -8,7 +8,7 @@
   bottom: 0;
   width: var(--sidebar-width);
 
-  background-color: var(--white-01);
+  /* background-color: var(--white-01); */
   overflow-y: scroll;
   z-index: 2000;
 }
@@ -103,8 +103,6 @@
 /* ************** */
 /* HERO */
 /* ************** */
-.hero-box {
-}
 
 .hero-title {
   font-weight: 400;
@@ -149,14 +147,14 @@
 /* ************** */
 /* SUBSCRIBLE */
 /* ************** */
-.subscrible {
+.subscribe .container {
   background-color: var(--black-01);
 }
 
 /* ************** */
 /* MORE-INFO */
 /* ************** */
-.more-info {
+.more-info .container {
   background-color: var(--gray-02);
 }
 
