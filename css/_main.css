@@ -44,7 +44,7 @@
 }
 
 .nav-link:hover,
-.subnav-item:hover .nav-link {
+.nav-item:hover > .nav-link {
   color: var(--black-01);
   background-color: var(--gray-01);
 
