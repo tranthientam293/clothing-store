@@ -104,7 +104,6 @@
 /* HERO */
 /* ************** */
 .hero-box {
-  
 }
 
 .hero-title {
@@ -114,10 +113,9 @@
   margin-block: 24px;
 }
 
-.hero-link-box ion-icon {
+.hero-link-box {
   font-size: 24px;
-
-  margin-left: 22px;
+  gap: 22px;
 }
 
 .hero-img-box {
@@ -149,11 +147,12 @@
 }
 
 /* ************** */
-/* MORE-INFO */
+/* SUBSCRIBLE */
 /* ************** */
 .subscrible {
   background-color: var(--black-01);
 }
+
 /* ************** */
 /* MORE-INFO */
 /* ************** */
@@ -209,11 +208,11 @@
 /* ************** */
 /* FOOTER */
 /* ************** */
-footer {
+.footer {
   color: var(--white-01);
   background-color: var(--black-01);
 }
-footer p {
+.footer p {
   padding-block: 24px;
 }
 
