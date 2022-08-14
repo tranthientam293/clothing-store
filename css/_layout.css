@@ -1,21 +1,17 @@
-.cover {
-  max-width: var(--cover-width);
+.wrapper {
+  max-width: var(--wrapper-width);
 
   margin: 0 auto;
 }
-.wrapper {
-  margin-left: var(--sidebar-width);
-}
 
 .container {
-  max-width: calc(var(--cover-width) - var(--sidebar-width));
+  max-width: calc(var(--wrapper-width) - var(--sidebar-width));
+  margin-left: var(--sidebar-width);
+
   padding: 0 16px;
 }
 
-.nav-container {
-  /* width: var(--sidebar-width); */
-}
-
+/* GRID */
 .grid {
   --grid-col: 1;
   --column-gap: 32px;
@@ -32,6 +28,7 @@
   --grid-col: 4;
 }
 
+/* FLEX */
 .flex-row {
   --justify-content-value: flex-start;
   --align-item-value: flex-start;
@@ -47,4 +44,9 @@
 
 .flex-row-center {
   --align-item-value: center;
+}
+
+footer {
+  max-width: var(--wrapper-width);
+  margin-left: var(--sidebar-width);
 }

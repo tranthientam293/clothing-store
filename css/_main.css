@@ -8,7 +8,9 @@
   bottom: 0;
   width: var(--sidebar-width);
 
+  background-color: var(--white-01);
   overflow-y: scroll;
+  z-index: 2000;
 }
 
 .logo-box {
@@ -102,7 +104,7 @@
 /* HERO */
 /* ************** */
 .hero-box {
-  padding: 0 16px;
+  
 }
 
 .hero-title {
@@ -142,10 +144,16 @@
 /* ************** */
 .products-heading {
   color: var(--gray-03);
-  
+
   margin-block: 15px;
 }
 
+/* ************** */
+/* MORE-INFO */
+/* ************** */
+.subscrible {
+  background-color: var(--black-01);
+}
 /* ************** */
 /* MORE-INFO */
 /* ************** */

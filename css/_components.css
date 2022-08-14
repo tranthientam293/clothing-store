@@ -59,7 +59,7 @@
 /* FORM */
 /* ************** */
 .form {
-  padding: 32px 16px;
+  padding: 32px 0px;
   background-color: var(--black-01);
 }
 
@@ -77,4 +77,5 @@
 
 .form-btn {
   background-color: var(--red-01);
+  margin-bottom: 16px;
 }

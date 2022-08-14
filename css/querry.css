@@ -2,10 +2,10 @@
   /* ************** */
   /* LAYOUT */
   /* ************** */
-  .wrapper {
+  .container {
     margin-left: 0;
   }
-  
+
   .grid--4-cols {
     --grid-col: 2;
   }

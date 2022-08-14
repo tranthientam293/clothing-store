@@ -13,8 +13,8 @@
     <title>Clothing Store</title>
   </head>
   <body>
-    <div class="cover">
-      <!-- NAVIGATION BAR -->
+    <div class="wrapper">
+      <!-- SIDE BAR -->
       <div class="nav-container">
         <div class="navbar">
           <div class="logo-box">
@@ -60,25 +60,25 @@
         </div>
       </div>
 
-      <div class="wrapper">
-        <!-- MOBILE-NAVIGATION BAR -->
-        <header class="m-header">
-          <div class="m-navbar">
-            <div class="logo-box">
-              <p class="logo">logo</p>
-            </div>
-            <div class="m-navbar-icon-box center">
-              <a href="" class="m-navbar-link">
-                <ion-icon name="menu" class="navbar-icon"></ion-icon>
-              </a>
-            </div>
+      <!-- MOBILE-NAVIGATION BAR -->
+      <header class="m-header">
+        <div class="m-navbar">
+          <div class="logo-box">
+            <p class="logo">logo</p>
           </div>
-        </header>
+          <div class="m-navbar-icon-box center">
+            <a href="" class="m-navbar-link">
+              <ion-icon name="menu" class="navbar-icon"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </header>
 
-        <!-- MAIN -->
-        <main>
-          <!-- HERO -->
-          <section class="hero">
+      <!-- MAIN -->
+      <main>
+        <!-- HERO -->
+        <section class="hero">
+          <div class="container">
             <div class="hero-box flex-row flex-row-spacing flex-row-center">
               <h3 class="hero-title">Jeans</h3>
               <div
@@ -92,161 +92,157 @@
                 </a>
               </div>
             </div>
-            <div class="container">
-              <div class="hero-img-box">
-                <img
-                  src="./img/hero-section.jpg"
-                  alt="banner"
-                  class="hero-img"
-                />
-                <div class="heading-primary-box">
-                  <h1 class="heading-primary">New arrivals</h1>
-                  <p class="subheading-primary">Collection 2016</p>
-                  <button class="btn hero-btn">shop now</button>
+            <div class="hero-img-box">
+              <img src="./img/hero-section.jpg" alt="banner" class="hero-img" />
+              <div class="heading-primary-box">
+                <h1 class="heading-primary">New arrivals</h1>
+                <p class="subheading-primary">Collection 2016</p>
+                <button class="btn hero-btn">shop now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PRODUCT -->
+        <section class="products">
+          <div class="container">
+            <p class="products-heading">8 items</p>
+            <div class="grid grid--4-cols">
+              <div class="card">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-01.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Ripped Skinny Jeans</p>
+                  <p class="card-price">$24.99</p>
+                </div>
+              </div>
+              <div class="card new">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-02.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Mega Ripped Jeans</p>
+                  <p class="card-price">$19.99</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-03.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Washed Skinny Jeans</p>
+                  <p class="card-price">$20.50</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-04.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Vintage Skinny Jeans</p>
+                  <p class="card-price">$14.99</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-02.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Mega Ripped Jeans</p>
+                  <p class="card-price">$19.99</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-03.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Washed Skinny Jeans</p>
+                  <p class="card-price">$20.50</p>
+                </div>
+              </div>
+              <div class="card sale">
+                <div class="card-img-box product-sale">
+                  <img
+                    src="./img/product/product-04.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Ripped Skinny Jeans</p>
+                  <p class="card-price">$14.99</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img-box">
+                  <img
+                    src="./img/product/product-01.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                  <button class="btn card-btn">
+                    Buy now <ion-icon name="cart"></ion-icon>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <p class="card-title">Ripped Skinny Jeans</p>
+                  <p class="card-price">$24.99</p>
                 </div>
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          <!-- PRODUCT -->
-          <section class="products">
-            <div class="container">
-              <p class="products-heading">8 items</p>
-              <div class="grid grid--4-cols">
-                <div class="card">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-01.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Ripped Skinny Jeans</p>
-                    <p class="card-price">$24.99</p>
-                  </div>
-                </div>
-                <div class="card new">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-02.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Mega Ripped Jeans</p>
-                    <p class="card-price">$19.99</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-03.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Washed Skinny Jeans</p>
-                    <p class="card-price">$20.50</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-04.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Vintage Skinny Jeans</p>
-                    <p class="card-price">$14.99</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-02.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Mega Ripped Jeans</p>
-                    <p class="card-price">$19.99</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-03.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Washed Skinny Jeans</p>
-                    <p class="card-price">$20.50</p>
-                  </div>
-                </div>
-                <div class="card sale">
-                  <div class="card-img-box product-sale">
-                    <img
-                      src="./img/product/product-04.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Ripped Skinny Jeans</p>
-                    <p class="card-price">$14.99</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-img-box">
-                    <img
-                      src="./img/product/product-01.jpg"
-                      alt=""
-                      class="card-img"
-                    />
-                    <button class="btn card-btn">
-                      Buy now <ion-icon name="cart"></ion-icon>
-                    </button>
-                  </div>
-                  <div class="card-body">
-                    <p class="card-title">Ripped Skinny Jeans</p>
-                    <p class="card-price">$24.99</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <!-- SUBSCRIBLE -->
-          <section class="subscrible">
+        <!-- SUBSCRIBLE -->
+        <section class="subscrible">
+          <div class="container">
             <form action="" class="form subscrible-form">
               <h2 class="heading-secondary">Subscrible</h2>
               <p class="form-desc">To get special offers and VIP treatment:</p>
@@ -257,113 +253,101 @@
               />
               <button class="btn form-btn">Subscrible</button>
             </form>
-          </section>
+          </div>
+        </section>
 
-          <!-- CONTACT -->
-          <section class="more-info">
-            <div class="container">
-              <div class="more-info-box flex-row">
-                <div class="more-info-item contact">
-                  <h4 class="more-info-tilte center">Contact</h4>
-                  <p class="more-info-text center">Questions? Go ahead.</p>
-                  <form action="" class="more-info-form">
-                    <input type="text" class="form-input" placeholder="Name" />
-                    <input
-                      type="text"
-                      class="form-input"
-                      placeholder="E-mail"
-                    />
-                    <input
-                      type="text"
-                      class="form-input"
-                      placeholder="Subject"
-                    />
-                    <input
-                      type="text"
-                      class="form-input"
-                      placeholder="Message"
-                    />
-                    <button class="btn">Send</button>
-                  </form>
+        <!-- CONTACT -->
+        <section class="more-info">
+          <div class="container">
+            <div class="more-info-box flex-row">
+              <div class="more-info-item contact">
+                <h4 class="more-info-tilte center">Contact</h4>
+                <p class="more-info-text center">Questions? Go ahead.</p>
+                <form action="" class="more-info-form">
+                  <input type="text" class="form-input" placeholder="Name" />
+                  <input type="text" class="form-input" placeholder="E-mail" />
+                  <input type="text" class="form-input" placeholder="Subject" />
+                  <input type="text" class="form-input" placeholder="Message" />
+                  <button class="btn">Send</button>
+                </form>
+              </div>
+
+              <ul class="more-info-item about center">
+                <h4 class="more-info-tilte">About</h4>
+
+                <li class="about-item">
+                  <a href="" class="about-link">About us</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">We're hiring</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Support</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Find store</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Shipment</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Payment</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Giftcard</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Return</a>
+                </li>
+                <li class="about-item">
+                  <a href="" class="about-link">Help</a>
+                </li>
+              </ul>
+              <div class="more-info-item store">
+                <div class="store-location">
+                  <h4 class="more-info-tilte">Store</h4>
+                  <p class="store-location-item flex-row flex-row-center">
+                    <ion-icon name="location-sharp"></ion-icon>
+                    Company Name
+                  </p>
+                  <p class="store-location-item flex-row flex-row-center">
+                    <ion-icon name="call-sharp"></ion-icon>
+                    0044123123
+                  </p>
+                  <p class="store-location-item flex-row flex-row-center">
+                    <ion-icon name="mail-sharp"></ion-icon>
+                    ex@mail.com
+                  </p>
                 </div>
-
-                <ul class="more-info-item about center">
-                  <h4 class="more-info-tilte">About</h4>
-
-                  <li class="about-item">
-                    <a href="" class="about-link">About us</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">We're hiring</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Support</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Find store</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Shipment</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Payment</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Giftcard</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Return</a>
-                  </li>
-                  <li class="about-item">
-                    <a href="" class="about-link">Help</a>
-                  </li>
-                </ul>
-                <div class="more-info-item store">
-                  <div class="store-location">
-                    <h4 class="more-info-tilte">Store</h4>
-                    <p class="store-location-item flex-row flex-row-center">
-                      <ion-icon name="location-sharp"></ion-icon>
-                      Company Name
-                    </p>
-                    <p class="store-location-item flex-row flex-row-center">
-                      <ion-icon name="call-sharp"></ion-icon>
-                      0044123123
-                    </p>
-                    <p class="store-location-item flex-row flex-row-center">
-                      <ion-icon name="mail-sharp"></ion-icon>
-                      ex@mail.com
-                    </p>
-                  </div>
-                  <div class="payment">
-                    <h4 class="more-info-tilte flex-row flex-row-center">
-                      We accept
-                    </h4>
-                    <p class="payment-item flex-row flex-row-center">
-                      <ion-icon name="card-sharp"></ion-icon>
-                      Amex
-                    </p>
-                    <p class="payment-item flex-row flex-row-center">
-                      <ion-icon name="card-sharp"></ion-icon>Credit Card
-                    </p>
-                  </div>
-                  <div class="social-network">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    <ion-icon name="logo-snapchat"></ion-icon>
-                    <ion-icon name="logo-pinterest"></ion-icon>
-                    <ion-icon name="logo-twitter"></ion-icon>
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                  </div>
+                <div class="payment">
+                  <h4 class="more-info-tilte flex-row flex-row-center">
+                    We accept
+                  </h4>
+                  <p class="payment-item flex-row flex-row-center">
+                    <ion-icon name="card-sharp"></ion-icon>
+                    Amex
+                  </p>
+                  <p class="payment-item flex-row flex-row-center">
+                    <ion-icon name="card-sharp"></ion-icon>Credit Card
+                  </p>
+                </div>
+                <div class="social-network">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                  <ion-icon name="logo-instagram"></ion-icon>
+                  <ion-icon name="logo-snapchat"></ion-icon>
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                  <ion-icon name="logo-twitter"></ion-icon>
+                  <ion-icon name="logo-linkedin"></ion-icon>
                 </div>
               </div>
             </div>
-          </section>
-        </main>
+          </div>
+        </section>
+      </main>
 
-        <footer class="center">
-          <p>Powered by <a href="" class="footer-link">w3.css</a></p>
-        </footer>
-      </div>
+      <footer class="center">
+        <p>Powered by <a href="" class="footer-link">w3.css</a></p>
+      </footer>
     </div>
     <script
       type="module"
