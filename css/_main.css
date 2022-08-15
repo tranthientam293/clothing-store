@@ -207,6 +207,9 @@
 /* FOOTER */
 /* ************** */
 .footer {
+  max-width: calc(var(--wrapper-width) - var(--sidebar-width));
+  margin-left: var(--sidebar-width);
+  
   color: var(--white-01);
   background-color: var(--black-01);
 }
@@ -215,6 +218,6 @@
 }
 
 .footer-link {
-  display: inline;
+  display: inline-block;
   text-decoration: underline;
 }

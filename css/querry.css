@@ -2,7 +2,8 @@
   /* ************** */
   /* LAYOUT */
   /* ************** */
-  .container {
+  .container,
+  .footer {
     margin-left: 0;
   }
 
