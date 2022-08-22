@@ -21,6 +21,7 @@
   .m-navbar {
     display: flex;
   }
+  
 }
 
 @media (max-width: 600px) {
