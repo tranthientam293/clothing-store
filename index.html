@@ -24,7 +24,7 @@
             <li class="nav-item"><a href="" class="nav-link">Shirts</a></li>
             <li class="nav-item"><a href="" class="nav-link">Dresses</a></li>
             <li class="nav-item">
-              <a href="" class="nav-link">Jeans </a>
+              <a href="" class="nav-link" toggle="dropdown">Jeans </a>
               <ul class="subnav">
                 <li class="subnav-item">
                   <a href="" class="nav-link">Skinny</a>
@@ -106,134 +106,7 @@
           <div class="container">
             <p class="products-heading">8 items</p>
             <div class="grid grid--4-cols">
-              <div class="card">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-01.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Ripped Skinny Jeans</p>
-                  <p class="card-price">$24.99</p>
-                </div>
-              </div>
-              <div class="card new">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-02.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Mega Ripped Jeans</p>
-                  <p class="card-price">$19.99</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-03.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Washed Skinny Jeans</p>
-                  <p class="card-price">$20.50</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-04.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Vintage Skinny Jeans</p>
-                  <p class="card-price">$14.99</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-02.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Mega Ripped Jeans</p>
-                  <p class="card-price">$19.99</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-03.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Washed Skinny Jeans</p>
-                  <p class="card-price">$20.50</p>
-                </div>
-              </div>
-              <div class="card sale">
-                <div class="card-img-box product-sale">
-                  <img
-                    src="./img/product/product-04.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Ripped Skinny Jeans</p>
-                  <p class="card-price">$14.99</p>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-img-box">
-                  <img
-                    src="./img/product/product-01.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <button class="btn card-btn">
-                    Buy now <ion-icon name="cart"></ion-icon>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <p class="card-title">Ripped Skinny Jeans</p>
-                  <p class="card-price">$24.99</p>
-                </div>
-              </div>
+              Loading....
             </div>
           </div>
         </section>
@@ -346,6 +219,20 @@
       <footer class="footer center">
         <p>Powered by <a href="" class="footer-link">w3.css</a></p>
       </footer>
+
+      <!-- MODAL -->
+      <div class="black-background"></div>
+
+      <div class="modal subcrible-modal">
+        <h1>Success</h1>
+        <button class="btn btn-primary close-modal">Close</button>
+      </div>
+    </div>
+
+
+    <!-- TOAST -->
+    <div class="toast">
+      Item is add to cart
     </div>
     <script
       type="module"
@@ -355,5 +242,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/fetchAPI.js"></script>
   </body>
 </html>

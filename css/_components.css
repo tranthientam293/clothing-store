@@ -16,12 +16,17 @@
 /* ************** */
 /* CARD */
 /* ************** */
+.card {
+  justify-items: stretch;
+}
 .card-img-box {
   position: relative;
+  height: 200px;
 }
 
 .card-img {
   filter: grayscale(0.7);
+  max-height: 100%;
 }
 
 .card-btn {
@@ -78,4 +83,64 @@
 .form-btn {
   background-color: var(--red-01);
   margin-bottom: 16px;
+}
+
+/* ************** */
+/* MODAL */
+/* ************** */
+.black-background {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.342);
+  z-index: 3000;
+}
+.black-background.show {
+  display: block;
+}
+
+.modal {
+  width: 50%;
+  padding: 2rem;
+}
+
+.subcrible-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3001;
+  background-color: white;
+  transition: all linear 0.5s;
+}
+
+.subcrible-modal.show {
+  display: block;
+  top: 150px;
+}
+
+.modal > h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.modal > .btn {
+  margin: auto;
+}
+
+/* ************** */
+/* TOAST */
+/* ************** */
+.toast {
+  position: fixed;
+  top: 5%;
+  right: -100%;
+  padding: 1rem 2rem;
+  background-color: var(--gray-01);
+  transition: all linear 0.5s;
+}
+
+.toast.show {
+  right: 1rem;
 }
