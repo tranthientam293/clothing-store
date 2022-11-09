@@ -18,43 +18,31 @@
       <div class="nav-container">
         <div class="navbar">
           <div class="logo-box">
-            <p class="logo">logo</p>
+            <a href="#" class="logo">logo</a>
           </div>
           <ul class="navbar-nav">
-            <li class="nav-item"><a href="" class="nav-link">Shirts</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Dresses</a></li>
             <li class="nav-item">
-              <a href="" class="nav-link" toggle="dropdown">Jeans </a>
-              <ul class="subnav">
-                <li class="subnav-item">
-                  <a href="" class="nav-link">Skinny</a>
-                </li>
-                <li class="subnav-item">
-                  <a href="" class="nav-link">Relaxed</a>
-                </li>
-                <li class="subnav-item">
-                  <a href="" class="nav-link">Bootcut</a>
-                </li>
-                <li class="subnav-item">
-                  <a href="" class="nav-link">Straight</a>
-                </li>
-              </ul>
+              <a href="#products" class="nav-link filter">men</a>
             </li>
-            <li class="nav-item"><a href="" class="nav-link">Jackets</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Gymware</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Blazers</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Shoes</a></li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link filter">women</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link filter">jewelery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#products" class="nav-link filter">all</a>
+            </li>
           </ul>
-
           <ul class="nav-contact-box">
             <li class="nav-contact-item">
-              <a href="" class="nav-link">Contact</a>
+              <a href="#more-info" class="nav-link">Contact</a>
             </li>
             <li class="nav-contact-item">
-              <a href="" class="nav-link">Newsletter</a>
+              <a href="#more-info" class="nav-link">Newsletter</a>
             </li>
             <li class="nav-contact-item">
-              <a href="" class="nav-link">Subscribe</a>
+              <a href="#more-info" class="nav-link">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -102,12 +90,10 @@
         </section>
 
         <!-- PRODUCT -->
-        <section class="products">
+        <section class="products" id="products">
           <div class="container">
             <p class="products-heading">8 items</p>
-            <div class="grid grid--4-cols">
-              Loading....
-            </div>
+            <div class="grid grid--4-cols">Loading....</div>
           </div>
         </section>
 
@@ -128,7 +114,7 @@
         </section>
 
         <!-- CONTACT -->
-        <section class="more-info">
+        <section class="more-info" id="more-info">
           <div class="container">
             <div class="more-info-box flex-row">
               <div class="more-info-item contact">
@@ -229,11 +215,8 @@
       </div>
     </div>
 
-
     <!-- TOAST -->
-    <div class="toast">
-      Item is add to cart
-    </div>
+    <div class="toast">Item is add to cart</div>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

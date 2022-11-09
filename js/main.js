@@ -9,15 +9,11 @@ const background = document.querySelector(".black-background");
 const closeModalBtns = document.querySelectorAll(".close-modal");
 
 
-navLinks.forEach((navItem) => {
-  navItem.addEventListener("click", (e) => {
-    e.preventDefault();
-  });
-});
-
-dropdown.addEventListener("click", (e) => {
-  e.target.closest(".nav-item").classList.toggle("active");
-});
+// navLinks.forEach((navItem) => {
+//   navItem.addEventListener("click", (e) => {
+//     e.preventDefault();
+//   });
+// });
 
 subItems.forEach((subItem) => {
   subItem.addEventListener("click", (e) => {
